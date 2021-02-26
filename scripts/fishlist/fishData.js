@@ -252,4 +252,17 @@ const fishCollection = [
 
 export const getFish = () => {
     return fishCollection
-}
+};
+
+/*
+export const getSoldierFish = () => {
+	const soldierFishArray = [];
+
+	for (const eachFish of fishCollection) {
+		if (eachFish.inches % 5 === 0) {
+			soldierFishArray.push(eachFish)
+		};
+	};
+	return soldierFishArray;
+};
+*/
