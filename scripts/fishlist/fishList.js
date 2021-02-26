@@ -1,5 +1,6 @@
 import { fish } from "./fishCard.js";
-import { getFish } from "./fishData.js";
+import { getFish, } from "./fishData.js";
+
 
 export const fishList = () => {
 
@@ -18,3 +19,4 @@ export const fishList = () => {
     ${fishHTMLRepresentation}
     `
 };
+ 
