@@ -1,10 +1,3 @@
-console.log("Welcome to the main module")
+import { fishList } from "./fishList.js";
 
-import { getFish } from "./fishData.js"
-
-const allTheFish = getFish()
-
-for (const fish of allTheFish) {
-    console.log(fish)
-}  
-  
+fishList();
